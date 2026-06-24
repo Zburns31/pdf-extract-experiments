@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "evaluation": {
+    "benchmark_kind": "document",
+    "composite_score": 98.68,
+    "judgments_output": "evaluation/judgments.json",
+    "status": "completed",
+    "summary_output": "evaluation/summary.json"
+  },
+  "method": {
+    "backend": "opendataloader",
+    "convert_options": {
+      "format": "json,markdown"
+    },
+    "description": "OpenDataLoader local extraction using embedded PDF text and layout analysis.",
+    "method_id": "text",
+    "output_kind": "document",
+    "requires_hybrid_backend": false,
+    "requires_java": true
+  },
+  "method_id": "text",
+  "normalized_element_count": 1,
+  "normalized_output": "normalized.json",
+  "normalized_record_count": 1,
+  "raw_outputs": [
+    "raw/GOOG-10-K-2025.json",
+    "raw/GOOG-10-K-2025.md"
+  ],
+  "status": "completed"
+}

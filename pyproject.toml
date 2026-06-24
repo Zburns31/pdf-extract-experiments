@@ -1,0 +1,24 @@
+[project]
+name = "pdf-extract-experiments"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Zac Burns", email = "zacbburns@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "camelot-py>=1.0.9",
+    "opencv-python>=4.10.0",
+    "ollama>=0.6.2",
+    "opendataloader-pdf>=2.4.7",
+    "pdfplumber>=0.11.0",
+    "pymupdf>=1.26.0",
+]
+
+[project.scripts]
+pdf-extract-experiments = "pdf_extract_experiments:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9"]
+build-backend = "uv_build"

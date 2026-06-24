@@ -1,0 +1,6 @@
+{
+  "benchmark_kind": "table",
+  "method_id": "camelot_table",
+  "reason": "table_methods_not_in_document_benchmark",
+  "status": "skipped"
+}

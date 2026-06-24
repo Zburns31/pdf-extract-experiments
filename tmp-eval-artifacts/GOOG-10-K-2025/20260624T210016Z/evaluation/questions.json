@@ -1,0 +1,104 @@
+{
+  "evaluation_version": "v1",
+  "gold_method_id": "text",
+  "question_count": 8,
+  "question_prompt_version": "v1",
+  "questions": [
+    {
+      "answer": "GOOGL",
+      "answer_type": "factoid",
+      "evidence_quote": "Class A Common Stock, $0.001 par value GOOGL Nasdaq Stock Market LLC (Nasdaq Global Select Market)",
+      "question": "What is the ticker symbol for Alphabet Inc.'s Class A Common Stock?",
+      "question_id": "q-000",
+      "section_label": "SECurities registered pursuant to Section 12(b) of the Act",
+      "source_chunk_id": "text-page-1-chunk-0",
+      "source_page_numbers": [
+        1
+      ]
+    },
+    {
+      "answer": "any inability to protect them",
+      "answer_type": "factoid",
+      "evidence_quote": "Our intellectual property rights are valuable, and any inability to protect them could reduce the value of our products, services, and brands as well as affect our ability to compete.",
+      "question": "What could reduce the value of Google Cloud's products, services, and brands?",
+      "question_id": "q-001",
+      "section_label": "Intellectual Property Rights",
+      "source_chunk_id": "text-page-12-chunk-33",
+      "source_page_numbers": [
+        12
+      ]
+    },
+    {
+      "answer": "Claims have been brought, and we expect will continue to be brought, against us for defamation, negligence, breaches of contract, patent, copyright, and trademark infringement...",
+      "answer_type": "list",
+      "evidence_quote": "Claims have been brought, and we expect will continue to be brought, against us for defamation, negligence, breaches of contract, patent, copyright, and trademark infringement...",
+      "question": "What types of claims can be brought against the company?",
+      "question_id": "q-002",
+      "section_label": "Litigation Claims",
+      "source_chunk_id": "text-page-20-chunk-66",
+      "source_page_numbers": [
+        20
+      ]
+    },
+    {
+      "answer": "Interest income (expense)",
+      "answer_type": "factoid",
+      "evidence_quote": "# Other Income (Expense), Net OI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains (losses), net gains (losses) and impairment on our marketable and non-marketable securities and income (loss) and impairment from our equity method investments.",
+      "question": "What is the primary component of net OI&E?",
+      "question_id": "q-003",
+      "section_label": "Other Income (Expense)",
+      "source_chunk_id": "text-page-33-chunk-99",
+      "source_page_numbers": [
+        33
+      ]
+    },
+    {
+      "answer": "Significant judgment is required",
+      "answer_type": "short_explanation",
+      "evidence_quote": "Significant judgment is required to determine both the likelihood and the estimated amount of a loss related to such matters.",
+      "question": "What is the significance of loss contingencies for the company?",
+      "question_id": "q-004",
+      "section_label": "How We Addressed the Matter in Our Audit",
+      "source_chunk_id": "text-page-47-chunk-133",
+      "source_page_numbers": [
+        47
+      ]
+    },
+    {
+      "answer": "2027",
+      "answer_type": "numeric",
+      "evidence_quote": "The standard is effective for our 2027 annual period, and our interim periods beginning in 2028, with early adoption permitted.",
+      "question": "What is the effective date of Accounting Standards Update (ASU) 2024-03?",
+      "question_id": "q-005",
+      "section_label": "Recently Issued Accounting Pronouncements",
+      "source_chunk_id": "text-page-60-chunk-166",
+      "source_page_numbers": [
+        60
+      ]
+    },
+    {
+      "answer": "Could have a material adverse effect",
+      "answer_type": "short_explanation",
+      "evidence_quote": "However, to the extent that valid indemnification claims arise in the future, future payments by us could be significant and could have a material adverse effect on our results of operations or cash flows in a particular period.",
+      "question": "What is the significance of material indemnification claims?",
+      "question_id": "q-006",
+      "section_label": "Legal Matters",
+      "source_chunk_id": "text-page-76-chunk-199",
+      "source_page_numbers": [
+        76
+      ]
+    },
+    {
+      "answer": "Sundar Pichai",
+      "answer_type": "factoid",
+      "evidence_quote": "Chief Executive Officer and Director (Principal Executive Officer) February 4, 2026 Sundar Pichai Senior Vice President and Chief Financial Officer (Principal Financial Officer) February 4, 2026",
+      "question": "Who is the CEO of Alphabet Inc?",
+      "question_id": "q-007",
+      "section_label": "Executives",
+      "source_chunk_id": "text-page-99-chunk-232",
+      "source_page_numbers": [
+        99
+      ]
+    }
+  ]
+}

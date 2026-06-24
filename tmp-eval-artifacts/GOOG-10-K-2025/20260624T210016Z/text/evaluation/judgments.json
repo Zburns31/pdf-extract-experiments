@@ -1,0 +1,165 @@
+{
+  "benchmark_kind": "document",
+  "judgments": [
+    {
+      "answer": "GOOGL",
+      "answer_present": true,
+      "best_chunk_id": "text-page-1-chunk-0",
+      "best_retrieval_overlap": 0.6667,
+      "evidence_present": true,
+      "matching_pages": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        19,
+        20,
+        26,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        37,
+        38,
+        54,
+        55,
+        61,
+        76,
+        77,
+        78,
+        88,
+        89,
+        91
+      ],
+      "question": "What is the ticker symbol for Alphabet Inc.'s Class A Common Stock?",
+      "question_id": "q-000",
+      "source_page_numbers": [
+        1
+      ]
+    },
+    {
+      "answer": "any inability to protect them",
+      "answer_present": true,
+      "best_chunk_id": "text-page-12-chunk-33",
+      "best_retrieval_overlap": 0.8333,
+      "evidence_present": true,
+      "matching_pages": [
+        12
+      ],
+      "question": "What could reduce the value of Google Cloud's products, services, and brands?",
+      "question_id": "q-001",
+      "source_page_numbers": [
+        12
+      ]
+    },
+    {
+      "answer": "Claims have been brought, and we expect will continue to be brought, against us for defamation, negligence, breaches of contract, patent, copyright, and trademark infringement...",
+      "answer_present": true,
+      "best_chunk_id": "text-page-76-chunk-198",
+      "best_retrieval_overlap": 0.6,
+      "evidence_present": true,
+      "matching_pages": [
+        20
+      ],
+      "question": "What types of claims can be brought against the company?",
+      "question_id": "q-002",
+      "source_page_numbers": [
+        20
+      ]
+    },
+    {
+      "answer": "Interest income (expense)",
+      "answer_present": true,
+      "best_chunk_id": "text-page-65-chunk-175",
+      "best_retrieval_overlap": 0.875,
+      "evidence_present": true,
+      "matching_pages": [
+        33
+      ],
+      "question": "What is the primary component of net OI&E?",
+      "question_id": "q-003",
+      "source_page_numbers": [
+        33
+      ]
+    },
+    {
+      "answer": "Significant judgment is required",
+      "answer_present": true,
+      "best_chunk_id": "text-page-47-chunk-133",
+      "best_retrieval_overlap": 0.7778,
+      "evidence_present": true,
+      "matching_pages": [
+        42,
+        47,
+        76,
+        87
+      ],
+      "question": "What is the significance of loss contingencies for the company?",
+      "question_id": "q-004",
+      "source_page_numbers": [
+        47
+      ]
+    },
+    {
+      "answer": "2027",
+      "answer_present": true,
+      "best_chunk_id": "text-page-60-chunk-166",
+      "best_retrieval_overlap": 0.8182,
+      "evidence_present": true,
+      "matching_pages": [
+        39,
+        60,
+        71,
+        72
+      ],
+      "question": "What is the effective date of Accounting Standards Update (ASU) 2024-03?",
+      "question_id": "q-005",
+      "source_page_numbers": [
+        60
+      ]
+    },
+    {
+      "answer": "Could have a material adverse effect",
+      "answer_present": true,
+      "best_chunk_id": "text-page-76-chunk-199",
+      "best_retrieval_overlap": 0.75,
+      "evidence_present": true,
+      "matching_pages": [
+        76
+      ],
+      "question": "What is the significance of material indemnification claims?",
+      "question_id": "q-006",
+      "source_page_numbers": [
+        76
+      ]
+    },
+    {
+      "answer": "Sundar Pichai",
+      "answer_present": true,
+      "best_chunk_id": "text-page-1-chunk-0",
+      "best_retrieval_overlap": 0.5714,
+      "evidence_present": true,
+      "matching_pages": [
+        4,
+        24,
+        88,
+        98,
+        99
+      ],
+      "question": "Who is the CEO of Alphabet Inc?",
+      "question_id": "q-007",
+      "source_page_numbers": [
+        99
+      ]
+    }
+  ],
+  "method_id": "text"
+}

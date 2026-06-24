@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "method": {
+    "convert_options": {
+      "format": "json,markdown"
+    },
+    "description": "Local extraction using embedded PDF text and layout analysis.",
+    "method_id": "text",
+    "requires_hybrid_backend": false
+  },
+  "method_id": "text",
+  "normalized_element_count": 1,
+  "normalized_output": "normalized.json",
+  "raw_outputs": [
+    "raw/GOOG-10-K-2025.json",
+    "raw/GOOG-10-K-2025.md"
+  ],
+  "status": "completed"
+}

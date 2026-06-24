@@ -1,0 +1,62 @@
+{
+  "benchmark_kind": "document_qa_proxy",
+  "evaluation_version": "v1",
+  "gold_method_id": "text",
+  "method_summaries": [
+    {
+      "benchmark_kind": "table",
+      "method_id": "camelot_table",
+      "reason": "table_methods_not_in_document_benchmark",
+      "status": "skipped"
+    },
+    {
+      "benchmark_kind": "document",
+      "method_id": "ocr",
+      "reason": "method_status_blocked",
+      "status": "skipped"
+    },
+    {
+      "answer_recall": 1.0,
+      "benchmark_kind": "document",
+      "chunk_count": 280,
+      "composite_score": 97.01,
+      "evidence_recall": 0.875,
+      "method_id": "pdfplumber_text",
+      "question_count": 8,
+      "retrieval_score": 0.7773,
+      "section_coverage": 1.0,
+      "status": "completed"
+    },
+    {
+      "answer_recall": 1.0,
+      "benchmark_kind": "document",
+      "chunk_count": 280,
+      "composite_score": 97.01,
+      "evidence_recall": 0.875,
+      "method_id": "pymupdf_text",
+      "question_count": 8,
+      "retrieval_score": 0.7773,
+      "section_coverage": 1.0,
+      "status": "completed"
+    },
+    {
+      "answer_recall": 1.0,
+      "benchmark_kind": "document",
+      "chunk_count": 233,
+      "composite_score": 98.68,
+      "evidence_recall": 1.0,
+      "method_id": "text",
+      "question_count": 8,
+      "retrieval_score": 0.7365,
+      "section_coverage": 1.0,
+      "status": "completed"
+    }
+  ],
+  "question_count": 8,
+  "question_output": "evaluation/questions.json",
+  "ranked_document_methods": [
+    "text",
+    "pdfplumber_text",
+    "pymupdf_text"
+  ]
+}

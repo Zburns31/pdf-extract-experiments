@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "evaluation": {
+    "benchmark_kind": "table",
+    "composite_score": null,
+    "judgments_output": "evaluation/judgments.json",
+    "status": "skipped",
+    "summary_output": "evaluation/summary.json"
+  },
+  "method": {
+    "backend": "camelot",
+    "convert_options": {
+      "flavor": "lattice",
+      "pages": "all"
+    },
+    "description": "Table-only extraction using Camelot for text-based PDFs.",
+    "method_id": "camelot_table",
+    "output_kind": "table",
+    "requires_hybrid_backend": false,
+    "requires_java": false
+  },
+  "method_id": "camelot_table",
+  "normalized_output": "normalized.json",
+  "normalized_record_count": 0,
+  "raw_outputs": [
+    "raw/GOOG-10-K-2025.json"
+  ],
+  "status": "completed"
+}

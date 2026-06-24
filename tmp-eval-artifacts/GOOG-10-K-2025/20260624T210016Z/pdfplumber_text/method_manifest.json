@@ -1,0 +1,28 @@
+{
+  "errors": [],
+  "evaluation": {
+    "benchmark_kind": "document",
+    "composite_score": 97.01,
+    "judgments_output": "evaluation/judgments.json",
+    "status": "completed",
+    "summary_output": "evaluation/summary.json"
+  },
+  "method": {
+    "backend": "pdfplumber",
+    "convert_options": {},
+    "description": "Whole-document extraction using pdfplumber word-level layout data.",
+    "method_id": "pdfplumber_text",
+    "output_kind": "document",
+    "requires_hybrid_backend": false,
+    "requires_java": false
+  },
+  "method_id": "pdfplumber_text",
+  "normalized_element_count": 52502,
+  "normalized_output": "normalized.json",
+  "normalized_record_count": 52502,
+  "raw_outputs": [
+    "raw/GOOG-10-K-2025.json",
+    "raw/GOOG-10-K-2025.md"
+  ],
+  "status": "completed"
+}

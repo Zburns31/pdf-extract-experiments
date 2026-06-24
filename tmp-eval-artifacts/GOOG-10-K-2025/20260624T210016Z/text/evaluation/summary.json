@@ -1,0 +1,12 @@
+{
+  "answer_recall": 1.0,
+  "benchmark_kind": "document",
+  "chunk_count": 233,
+  "composite_score": 98.68,
+  "evidence_recall": 1.0,
+  "method_id": "text",
+  "question_count": 8,
+  "retrieval_score": 0.7365,
+  "section_coverage": 1.0,
+  "status": "completed"
+}

@@ -1,0 +1,28 @@
+{
+  "errors": [
+    "OCR mode expects the OpenDataLoader hybrid backend to be installed and running separately; this pipeline records the method configuration but does not bootstrap that backend."
+  ],
+  "evaluation": {
+    "benchmark_kind": "document",
+    "composite_score": null,
+    "judgments_output": "evaluation/judgments.json",
+    "status": "skipped",
+    "summary_output": "evaluation/summary.json"
+  },
+  "method": {
+    "backend": "opendataloader",
+    "convert_options": {
+      "format": "json,markdown",
+      "hybrid": "docling-fast"
+    },
+    "description": "OCR-oriented extraction using OpenDataLoader hybrid mode.",
+    "method_id": "ocr",
+    "output_kind": "document",
+    "requires_hybrid_backend": true,
+    "requires_java": true
+  },
+  "method_id": "ocr",
+  "normalized_output": null,
+  "raw_outputs": [],
+  "status": "blocked"
+}
